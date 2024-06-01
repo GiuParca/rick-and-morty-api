@@ -12,6 +12,13 @@ export default function charactersCardsListHomeView(characterModelList) {
     } else {
         console.error("Error");
     }
+
+    const heroSection = document.getElementById('hero-section');
+    heroSection.style.display = 'flex';
+
+    const formSection = document.getElementById('form-section');
+    formSection.style.display = 'flex';
+
 }
 
 

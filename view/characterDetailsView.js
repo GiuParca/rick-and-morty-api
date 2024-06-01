@@ -1,4 +1,10 @@
-export default function characterDetailsView(characterModel) {
+export default function characterDetailsView(characterModel) {   
+    const formSection = document.getElementById('form-section');
+    formSection.style.display = 'none';
+
+    const heroSection = document.getElementById('hero-section');
+    heroSection.style.display = 'none';
+
     const headerName = document.getElementById('header-name');
     headerName.innerText = characterModel.name;
 

@@ -130,3 +130,31 @@ a {
 a:visited {
   text-decoration: none;
 }
+
+.character-details{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: rgba(137, 250, 99, 0.21);
+  height: 50vh;
+  width: 30vw;
+  margin-top: 90px;
+}
+
+.character-details button{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.character-details img{
+  margin-top: -100px;
+  border-radius: 180px;
+  height: 30vh;
+  padding: 10px;
+  margin-bottom: 20px;
+}
