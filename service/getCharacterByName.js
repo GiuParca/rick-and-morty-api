@@ -21,7 +21,7 @@ export default async function getCharacterByName(name) {
         ));
         return characters;
     } catch (error) {
-        throw new Error(`Error fetching characters: ${error.message}`);
+        throw new Error(`Um error aí`);
     }
 }
 

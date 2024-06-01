@@ -4,7 +4,7 @@ export default async function getCharacterDetails(id) {
     const response = await fetch(`https://rickandmortyapi.com/api/character/${id}`);
 
     if (!response.ok) {
-        throw new Error("Oooops...Could not fetch resource as you wish hahaha");
+        throw new Error("Oooops...Could not fetch resource");
     }
 
     const data = await response.json();

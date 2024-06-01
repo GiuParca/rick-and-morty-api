@@ -1,4 +1,7 @@
 export default function characterDetailsView(characterModel) {
+    const headerName = document.getElementById('header-name');
+    headerName.innerText = characterModel.name;
+
     const container = document.getElementById('card-container');
     container.innerHTML = ''; 
 
@@ -8,10 +11,6 @@ export default function characterDetailsView(characterModel) {
     const image = document.createElement('img');
     image.src = characterModel.image;
     detailsDiv.appendChild(image);
-
-    const name = document.createElement('h2');
-    name.innerText = characterModel.name;
-    detailsDiv.appendChild(name);
 
     const status = document.createElement('p');
     status.innerText = `Status: ${characterModel.status}`;
@@ -30,11 +29,12 @@ export default function characterDetailsView(characterModel) {
     detailsDiv.appendChild(location);
 
     const backButton = document.createElement('button');
-    backButton.innerText = 'Take me back to Home';
+    backButton.innerText = 'Back to Home';
     backButton.addEventListener('click', () => {
         window.location.hash = '#home';
     });
     detailsDiv.appendChild(backButton);
+
     container.appendChild(detailsDiv);
 }
 
