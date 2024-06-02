@@ -13,8 +13,8 @@ export default function charactersCardsListHomeView(characterModelList) {
         console.error("Error");
     }
 
-    const heroSection = document.getElementById('hero-section');
-    heroSection.style.display = 'flex';
+    const imgHeroSection = document.getElementById('img-hero');
+    imgHeroSection.style.display = 'flex';
 
     const formSection = document.getElementById('form-section');
     formSection.style.display = 'flex';

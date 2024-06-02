@@ -3,8 +3,14 @@ export default function characterDetailsView(characterModel) {
     formSection.style.display = 'none';
 
     const heroSection = document.getElementById('hero-section');
-    heroSection.style.display = 'none';
+    heroSection.style.border = 'none';
+    heroSection.style.boxShadow = 'none';
+    
 
+    const imgHeroSection = document.getElementById('img-hero');
+    imgHeroSection.style.display = 'none';
+
+    heroSection.style.displa
     const headerName = document.getElementById('header-name');
     headerName.innerText = characterModel.name;
 

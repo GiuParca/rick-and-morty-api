@@ -19,9 +19,9 @@ h1 {
   font-family: RickMorty-font;
   color: rgba(84, 250, 42, 0.76);
   display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 70px;
+  margin: auto;
 }
 
 #hero-section {
@@ -139,7 +139,6 @@ a:visited {
   background-color: rgba(137, 250, 99, 0.21);
   height: 50vh;
   width: 30vw;
-  margin-top: 90px;
 }
 
 .character-details button{
@@ -152,7 +151,7 @@ a:visited {
 }
 
 .character-details img{
-  margin-top: -100px;
+  margin-top: -110px;
   border-radius: 180px;
   height: 30vh;
   padding: 10px;
