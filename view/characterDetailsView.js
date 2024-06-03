@@ -43,10 +43,9 @@ export default function characterDetailsView(characterModel) {
     const backButton = document.createElement('button');
     backButton.innerText = 'Back to Home';
     backButton.addEventListener('click', () => {
-        window.location.hash = routes.home.hash;
+        window.location.hash = '#home';
     });
     detailsDiv.appendChild(backButton);
-
     container.appendChild(detailsDiv);
 }
 

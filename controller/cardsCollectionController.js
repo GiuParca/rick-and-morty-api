@@ -11,7 +11,7 @@ export default async function cardsCollectionController(page) {
     }
 }
 
-cardsCollectionController(1);
+cardsCollectionController();
 
 
 
