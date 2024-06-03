@@ -10,9 +10,9 @@ export default function characterDetailsView(characterModel) {
     const imgHeroSection = document.getElementById('img-hero');
     imgHeroSection.style.display = 'none';
 
-    heroSection.style.displa
     const headerName = document.getElementById('header-name');
     headerName.innerText = characterModel.name;
+    headerName.style.margin = "auto";
 
     const container = document.getElementById('card-container');
     container.innerHTML = ''; 
@@ -43,12 +43,13 @@ export default function characterDetailsView(characterModel) {
     const backButton = document.createElement('button');
     backButton.innerText = 'Back to Home';
     backButton.addEventListener('click', () => {
-        window.location.hash = '#home';
+        window.location.hash = routes.home.hash;
     });
     detailsDiv.appendChild(backButton);
 
     container.appendChild(detailsDiv);
 }
+
 
 
 
