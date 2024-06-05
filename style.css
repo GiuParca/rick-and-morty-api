@@ -61,7 +61,7 @@ form {
   padding: 10px;
 }
 
-button {
+#search-button {
   background-color: rgba(137, 250, 99, 0.21);
   border-radius: 0px 18px 18px 0px;
   margin-left: -40px;
@@ -162,3 +162,33 @@ a:visited {
   padding: 10px;
   margin-bottom: 20px;
 }
+
+#pagesNum{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center; 
+  background-color: black;  
+  width: 160px;  
+  margin-top: 10px
+}
+
+#pagination{
+  color: rgba(84, 250, 42, 0.76);
+  font-size: 18px;
+  padding: 5px;
+}
+
+.btn{
+  background-color: rgba(137, 250, 99, 0.21);
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center; 
+  font-size: 18px;
+  font-weight: 700;
+}
+
+

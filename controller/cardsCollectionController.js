@@ -1,8 +1,8 @@
 import getCharacters from '../service/getCharacters.js';
 import charactersCardsListHomeView from '../view/charactersCardsListHomeView.js';
 
+
 export default async function cardsCollectionController(page) {
-    console.log("home route is workiiiiiing ");
     try {
         let characters = await getCharacters(page);
         charactersCardsListHomeView(characters);
@@ -12,9 +12,6 @@ export default async function cardsCollectionController(page) {
 }
 
 cardsCollectionController();
-
-
-
 
 
 
