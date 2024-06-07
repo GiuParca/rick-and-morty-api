@@ -141,7 +141,8 @@ a:visited {
   background-color: rgba(137, 250, 99, 0.221);
   height: 100%;
   width: 50vw;
-  margin-top: -20px;
+  margin-top: -50px;
+  margin-bottom: 30px;
 }
 
 .character-details button{
@@ -153,10 +154,12 @@ a:visited {
   margin: auto;
   margin-bottom: 20px;
   margin-top: 30px;
+  background-color: rgba(137, 250, 99, 0.221);
+  font-size: 16px;
 }
 
 .character-details img{
-  margin-top: -110px;
+  margin-top: -130px;
   border-radius: 180px;
   height: 30vh;
   padding: 10px;
